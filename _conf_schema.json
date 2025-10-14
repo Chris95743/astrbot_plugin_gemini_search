@@ -1,0 +1,26 @@
+{
+    "api_key": {
+        "description": "Gemini API密钥",
+        "type": "list",
+        "hint": "请输入您的 Gemini API 密钥",
+        "default": []
+    },
+    "api_base_url": {
+        "description": "Gemini API基础URL",
+        "type": "string",
+        "hint": "可以填写你的反代地址,默认为官方API基础URL",
+        "default": "https://generativelanguage.googleapis.com"
+    },
+    "model": {
+        "description": "进行搜索的模型,不在可选的可以到插件代码中进行修改",
+        "type": "string",
+        "hint": "选择要使用的搜索模型",
+        "default": "gemini-2.0-flash"
+    },
+    "random_api_key_selection": {
+        "type": "bool",
+        "title": "随机选择API Key",
+        "description": "启用后，将在可用的API Key中随机选择一个进行调用；禁用则按顺序轮询。",
+        "default": false
+    }
+}
