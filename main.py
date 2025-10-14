@@ -31,7 +31,7 @@ class Main(star.Star):
 
 	@llm_tool("gemini_search")
 	async def gemini_search(self, event: AstrMessageEvent, query: str) -> str:
-		"""使用 Google Gemini 2.0 Flash 原生搜索工具检索问题，并给出要点摘要与引用来源列表
+		"""这是一个“联网搜索”的函数工具（工具名：gemini_search）。当需要获取互联网上的实时/最新信息时，你必须调用本工具进行搜索。
 
 		Args:
 			query(string): 用户希望检索的查询内容
