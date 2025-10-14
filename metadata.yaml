@@ -1,6 +1,6 @@
 name: astrbot_plugin_gemini_search
-desc: 提供调用Gemini格式API的联网搜索函数工具
-help: 一个调用Gemini格式API的联网搜索函数工具
+desc: 一个调用Gemini格式API进行联网搜索的函数工具
+help: 一个调用Gemini格式API进行联网搜索的函数工具
 version: v1.0.0
 author: Chris95743
 repo: https://github.com/Chris95743/astrbot_plugin_gemini_search
