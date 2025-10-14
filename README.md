@@ -14,7 +14,7 @@ _✨ [astrbot](https://github.com/AstrBotDevs/AstrBot) 一个调用 Gemini 格�
 
 </div>
 
-### Gemini Search 函数工具
+# Gemini Search 函数工具
 
 强力的联网检索工具：基于 Google Generative AI（Gemini 2.0 Flash），启用原生 Google Search 工具进行实时搜索。插件将搜索结果提炼为“要点摘要 + 引用来源（标题+URL）”，并作为函数工具输出注入 AstrBot 对话，让主模型在同一轮对话中即可消化并回答。
 
@@ -110,3 +110,4 @@ Q2: 工具没有被调用？
 如果觉得有用，请给个 ⭐ Star 支持一下！
 
 </div>
+
