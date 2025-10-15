@@ -80,7 +80,7 @@ git clone https://github.com/Chris95743/astrbot_plugin_gemini_search
 - 用户：今年某领域的最新进展？给出要点摘要并附参考链接
 - 模型（内部）：调用 `gemini_search` 工具 -> 获取摘要与来源 -> 基于结果生成最终答复
 - 可以在主函数中按需求修改以下内容。使搜索返回内容不包括url或者返回内容更详细。
-```main.py
+```main
 prompt = (
 	"你是检索聚合助手。请使用 Google Search 工具对下述问题进行检索，"
 	"产出包含：\n"
@@ -121,5 +121,6 @@ Q2: 工具没有被调用？
 如果觉得有用，请给个 ⭐ Star 支持一下！
 
 </div>
+
 
 
