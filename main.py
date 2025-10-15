@@ -34,7 +34,7 @@ class Main(star.Star):
 		"""这是一个“联网搜索”的函数工具（工具名：gemini_search）。当需要获取互联网上的实时/最新信息时，你必须调用本工具进行搜索。
 
 		Args:
-			query(string): 用户希望检索的查询内容
+			query(string): 简要说明用户希望检索的查询内容
 
 		Returns:
 			str: 要点摘要与引用来源，作为 tool 消息注入上下文
